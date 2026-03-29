@@ -457,7 +457,7 @@ function initClosingScreen() {
       '<cite>\u2014 Ralph Waldo Emerson, \u201cHamatreya\u201d (1847)</cite>' +
     '</div>' +
     '<div class="coda-links">' +
-      '<a href="#" onclick="showScreen(2); return false;">\u2190 Explore another trail</a>' +
+      '<a href="#" onclick="showScreen(1); return false;">\u2190 Explore another trail</a>' +
       '<a href="https://www.railstotrails.org/" target="_blank" rel="noopener">Rails-to-Trails Conservancy</a>' +
       '<a href="https://masstrails.com" target="_blank" rel="noopener">MassTrails</a>' +
     '</div>';
