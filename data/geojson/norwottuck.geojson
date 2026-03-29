@@ -1,0 +1,36 @@
+{
+  "type": "FeatureCollection",
+  "features": [{
+    "type": "Feature",
+    "properties": {
+      "name": "Norwottuck Rail Trail",
+      "source": "fallback-approximate",
+      "note": "Approximate coordinates tracing the Connecticut River Valley corridor from Northampton through Hadley and Amherst to Belchertown"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [
+        [-72.6437, 42.3305],
+        [-72.6285, 42.3360],
+        [-72.6135, 42.3405],
+        [-72.6018, 42.3412],
+        [-72.5892, 42.3428],
+        [-72.5725, 42.3442],
+        [-72.5568, 42.3458],
+        [-72.5428, 42.3490],
+        [-72.5305, 42.3555],
+        [-72.5208, 42.3648],
+        [-72.5138, 42.3718],
+        [-72.5068, 42.3772],
+        [-72.5002, 42.3788],
+        [-72.4922, 42.3745],
+        [-72.4808, 42.3682],
+        [-72.4665, 42.3495],
+        [-72.4512, 42.3215],
+        [-72.4362, 42.2985],
+        [-72.4205, 42.2892],
+        [-72.4103, 42.2798]
+      ]
+    }
+  }]
+}
