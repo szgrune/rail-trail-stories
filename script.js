@@ -448,9 +448,8 @@ function initClosingScreen() {
   const codaEl = document.getElementById('closing-coda');
   codaEl.innerHTML =
     '<div class="coda-text">' +
-      '<p>Every trail in Massachusetts was once a railroad. And before that railroad, it was something else — a river path, a cart road, a field edge, a deer track through the pines. The conversion is never finished. The land keeps becoming.</p>' +
       '<p>These four trails are part of a larger story unfolding across the state: more than two hundred miles of abandoned rail corridors in various stages of restoration, planning, and construction. The work of the Rails-to-Trails Conservancy and the state\'s MassTrails program continues to open new paths each year.</p>' +
-      '<p>If you walk one of these trails, you are walking on history. The ties are gone, the rails are gone, but the grade is still there — that nearly imperceptible engineered levelness, laid for a steam locomotive in 1846. Your feet follow the same line.</p>' +
+      '<p>If you walk or ride on one of these trails, you are passing through history. The ties and the rails might be gone, but the landscape remembers the history. The grade is still there and the vegetation opens a path — a nearly imperceptible engineered levelness, laid for a steam locomotive in 1846. You can follow the same line.</p>' +
     '</div>' +
     '<div class="coda-pull-quote">' +
       '<p>"The land is well, \u2014 lies fairly to the south."</p>' +
