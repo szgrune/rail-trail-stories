@@ -79,6 +79,59 @@ const TRAILS = {
 
     poems: [
       {
+        poet:       'Mary Oliver',
+        title:      'In Blackwater Woods',
+        year:        1983,
+        sourceUrl:  'https://wordsfortheyear.com/2014/03/28/in-blackwater-woods-by-mary-oliver/',
+        sourceLabel: 'Words for the Year',
+        publicDomain: false,
+        fullText:
+          'Look, the trees\n' +
+          'are turning\n' +
+          'their own bodies\n' +
+          '\n' +
+          'into pillars\n' + 
+          'of light,\n' + 
+          'giving off the rich\n' +
+          'fragrance of cinnamon\n' +
+          'and fulfillment,\n' +
+          '\n' +
+          'the long tapers\n' + 
+          'of cattails\n' +
+          'are bursting and floating away over\n'+ 
+          'the blue shoulders\n' +
+          '\n' +
+          'of the ponds,\n' + 
+          'and every pond,\n' +
+          'no matter what its\n' +
+          'name is, is\n' +
+          '\n' +
+          'nameless now.\n' +
+          'Every year\n' +
+          'everything\n' +
+          'I have ever learned\n' +
+          '\n' +
+          'in my lifetime\n' +
+          'leads back to this: the fires\n' +
+          'and the black river of loss\n' +
+          'whose other side\n' +
+          '\n' +
+          'is salvation,\n' +
+          'whose meaning\n' + 
+          'one of us will ever know.\n' +
+          'To live in this world\n' +
+          '\n' +
+          'you must be able\n' +
+          'to do three things:\n' +
+          'to love what is mortal;\n' +
+          'to hold it\n' +
+          '\n' +
+          'against your bones knowing\n' +
+          'your own life depends on it;\n' +
+          'and, when the time comes to let it go,\n' +
+          'to let it go.'
+      },
+      {
         poet:       'Henry David Thoreau',
         title:      'Cape Cod (excerpt)',
         year:        1865,

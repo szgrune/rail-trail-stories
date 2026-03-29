@@ -367,12 +367,27 @@ a:hover { color: var(--forest-dark); }
   padding: 40px 48px 60px;
 }
 
-/* Back nav */
-.nav-back {
-  display: flex;
-  align-items: center;
-  gap: 16px;
+/* Breadcrumb nav */
+.breadcrumb {
+  font-family: var(--font-body);
+  font-style: italic;
+  font-size: 0.88rem;
   margin-bottom: 28px;
+}
+.breadcrumb a {
+  color: var(--forest-dark);
+  text-decoration: underline;
+  font-style: italic;
+}
+.breadcrumb a:hover {
+  color: var(--forest);
+}
+.breadcrumb-sep {
+  color: var(--forest-dark);
+  margin: 0 2px;
+}
+.breadcrumb-current {
+  color: var(--forest-dark);
 }
 
 /* Trail header */

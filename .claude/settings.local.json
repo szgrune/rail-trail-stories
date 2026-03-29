@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:tigerweb.geo.census.gov)",
+      "WebFetch(domain:services.arcgis.com)",
+      "WebSearch",
+      "WebFetch(domain:gist.github.com)",
+      "WebFetch(domain:gist.githubusercontent.com)",
+      "WebFetch(domain:eric.clst.org)",
+      "WebFetch(domain:www.mass.gov)",
+      "Bash(python3:*)"
+    ]
+  }
+}

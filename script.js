@@ -283,9 +283,13 @@ function renderNarrative(trail) {
   ).join('');
 
   el.innerHTML =
-    '<div class="nav-back">' +
-      '<button class="btn-ghost btn-back" onclick="showScreen(3)">\u2190 Trails</button>' +
-    '</div>' +
+    '<nav class="breadcrumb">' +
+      '<a href="#" onclick="showScreen(1); return false;">Home</a>' +
+      '<span class="breadcrumb-sep"> > </span>' +
+      '<a href="#" onclick="showScreen(3); return false;">Trails</a>' +
+      '<span class="breadcrumb-sep"> > </span>' +
+      '<span class="breadcrumb-current">' + trail.name + '</span>' +
+    '</nav>' +
 
     '<div class="trail-header">' +
       headerImg +
@@ -298,11 +302,11 @@ function renderNarrative(trail) {
       '</div>' +
     '</div>' +
 
-    '<h3 class="section-head">Historical sites along the way</h3>' +
-    sitesHtml +
-
     '<h3 class="section-head">Situated poetry</h3>' +
     '<div class="poetry-section">' + poemsHtml + '</div>' +
+
+    '<h3 class="section-head">Historical sites along the way</h3>' +
+    sitesHtml +
 
     '<h3 class="section-head">Railroads past</h3>' +
     '<div class="history-text">' + formatHistory(trail.history, trail.citations) + '</div>' +
