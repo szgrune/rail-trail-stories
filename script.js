@@ -201,7 +201,7 @@ function initDiscoveryScreen() {
       .then(r => r.json())
       .then(data => {
         discoveryLayer = L.geoJSON(data, {
-          style: { color: '#C4852A', weight: 3.5, opacity: 0.85 }
+          style: { color: '#228B22', weight: 3.5, opacity: 0.85 }
         }).addTo(discoveryMap);
       })
       .catch(() => {});
@@ -432,7 +432,7 @@ function initTrailMap(trail) {
     .then(r => r.json())
     .then(data => {
       trailGeoLayer = L.geoJSON(data, {
-        style: { color: '#C4852A', weight: 4, opacity: 0.9 }
+        style: { color: '#228B22', weight: 4, opacity: 0.9 }
       }).addTo(trailMap);
       trailMap.fitBounds(trailGeoLayer.getBounds(), { padding: [28, 28] });
     })
